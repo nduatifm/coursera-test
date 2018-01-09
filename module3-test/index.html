@@ -4,63 +4,71 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Boostrap Starter Page</title>
+    <title>Module 3 Assignment</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora">
   </head>
 <body>
-	 <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="index.html" class="pull-left visible-md visible-lg">
-            <div id="logo-img"></div>
-          </a>
-
-          <div class="navbar-brand">
-            <a href="index.html"><h1>David Chu's China Bistro</h1></a>
-            <p>
-              <img src="images/star-k-logo.png" alt="Kosher certification">
-              <span>Kosher Certified</span>
-            </p>
-          </div>
-
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+ <header>
+  <nav id="header-nav" class="navbar navbar-default hidden-down">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="index.html" class="pull-left visible-md visible-lg">
+        </a>
+        <div class="navbar-brand">
+            <h1>Food, LLC</h1>  
         </div>
-        
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li class="active">
-              <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
-            </li>
-            <li id="phone" class="hidden-xs">
-              <a href="tel:410-602-5008">
-                <span>410-602-5008</span></a><div>* We Deliver</div>
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
-  </header>
 
+<!-- # Collapsing menu for Cellphone layout -->
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+        <div id="nav-list" class="nav navbar-nav navbar-right">
+          <section>
+              <span class="visible-xs"> Chicken</span>
+          </section>
+           <section>
+              <span class="visible-xs"> Beef</span>
+          </section>
+          <section>
+              <span class="visible-xs"> Sushi</span>
+          </section>
+        </div><!-- #nav-list -->
+      </div><!-- #.collapse .navbar-collapse -->
+      
+    </div>
+  </nav>
+</header>
+
+<div id="main-content" class="container">
+  <h2> Our Menu</h2>
+    <div id="home-tiles" class="row">
+       <div class="col-md-12 col-sm-12 col-xs-12">
+       <div id="s1"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Viverra vitae congue eu consequat. Eros in cursus turpis massa tincidunt dui ut. Tincidunt tortor aliquam nulla facilisi. Mattis aliquam faucibus purus in. Pharetra et ultrices neque ornare aenean euismod. Gravida quis blandit turpis cursus in hac habitasse. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Lectus mauris ultrices eros in cursus turpis massa tincidunt. Tempor commodo ullamcorper a lacus. Non curabitur gravida arcu ac tortor dignissim convallis aenean et. Rhoncus dolor purus non enim praesent elementum facilisis leo vel. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Sit amet cursus sit amet dictum. Tempus egestas sed sed risus pretium quam vulputate dignissim. Egestas sed sed risus pretium. Magna ac placerat vestibulum lectus.</span></div>
+      </div>
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div id="s1"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Viverra vitae congue eu consequat. Eros in cursus turpis massa tincidunt dui ut. Tincidunt tortor aliquam nulla facilisi. Mattis aliquam faucibus purus in. Pharetra et ultrices neque ornare aenean euismod. Gravida quis blandit turpis cursus in hac habitasse. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Lectus mauris ultrices eros in cursus turpis massa tincidunt. Tempor commodo ullamcorper a lacus. Non curabitur gravida arcu ac tortor dignissim convallis aenean et. Rhoncus dolor purus non enim praesent elementum facilisis leo vel. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Sit amet cursus sit amet dictum. Tempus egestas sed sed risus pretium quam vulputate dignissim. Egestas sed sed risus pretium. Magna ac placerat vestibulum lectus.</span></div>
+      </div>
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div id="s1"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Viverra vitae congue eu consequat. Eros in cursus turpis massa tincidunt dui ut. Tincidunt tortor aliquam nulla facilisi. Mattis aliquam faucibus purus in. Pharetra et ultrices neque ornare aenean euismod. Gravida quis blandit turpis cursus in hac habitasse. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Lectus mauris ultrices eros in cursus turpis massa tincidunt. Tempor commodo ullamcorper a lacus. Non curabitur gravida arcu ac tortor dignissim convallis aenean et. Rhoncus dolor purus non enim praesent elementum facilisis leo vel. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Sit amet cursus sit amet dictum. Tempus egestas sed sed risus pretium quam vulputate dignissim. Egestas sed sed risus pretium. Magna ac placerat vestibulum lectus.</span></div>
+         </div>
+
+        </a>
+      </div>
+    </div><!-- End of #home-tiles -->
+  </div><!-- End of #main-content -->
+  
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
